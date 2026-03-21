@@ -1,0 +1,28 @@
+# Local tooling/config
+.claude/
+
+# macOS / editor files
+.DS_Store
+*.swp
+
+# Example notebooks and scratch copies
+examples/
+notebook copy.ipynb
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Python virtual environments
+venv/
+env/
+
+# Python cache/bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
