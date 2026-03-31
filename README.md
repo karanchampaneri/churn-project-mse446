@@ -15,17 +15,34 @@ evaluation of all models across recall, F1, and ROC-AUC.
 
 ## How to Run
 
+**Prerequisites:** Python 3.8 or higher
+
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-2. Open `notebook.ipynb` in Jupyter and run all cells top-to-bottom.
+2. Launch Jupyter:
+   ```bash
+   jupyter notebook notebook.ipynb
+   ```
+3. Run all cells top-to-bottom (**Kernel → Restart & Run All**).
    The dataset is already in `data/raw/` — no download needed.
+
+## Dependencies
+
+| Package | Version |
+|---|---|
+| scikit-learn | 1.4.2 |
+| pandas | 2.2.0 |
+| numpy | 1.26.4 |
+| matplotlib | 3.10.3 |
+| seaborn | 0.13.2 |
+| jupyter | 1.1.1 |
 
 ## Folder Structure
 
 ```
-churn_project/
+mse446-group3-churn-project/
 ├── notebook.ipynb          # Main notebook (EDA → cleaning → preprocessing → modeling)
 ├── requirements.txt        # Python dependencies
 ├── README.md
